@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../decoration/index.css">
+    <title>DKtraining - ĐĂNG NHẬP TÀI KHOẢN</title>
+    <script src="../function/index.js"></script>
+</head>
+<header class="header">
+    <nav class="nav">
+        <ul class="nav_items">
+            <li class="nav_item">
+                <a href="dktraining.html" class="nav_logo">DKtraining</a>
+                <a href="hompepage.html" class="nav_link">Trang Chủ</a>
+                <a href="trainning.html" class="nav_link">Luyện Thi</a>
+                <a href="introduction.html" class="nav_link">Giới Thiệu</a>
+                <a href="ranking.html" class="nav_link">Xếp Hạng</a>
+                <a href="signup.html" class="nav_link"> Đăng ký </a>
+                <a href="signin.html" class="button">Đăng Nhập</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div id="wrapper">
+        <form action="../function/login.php" id="form-login" method="post">
+            <h1 class="form-heading">ĐĂNG NHẬP TÀI KHOẢN</h1>
+            <div class="form-group">
+                <i class="far fa-user"></i>
+                <input type="text" class="form-input" placeholder="Tên đăng nhập" name="uname">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-key"></i>
+                <input type="password" class="form-input" placeholder="Mật khẩu" name="password">
+                <div id="eye">
+                    <i class="far fa-eye"></i>
+                </div>
+            </div>
+            <div class="form-checkbox">
+                <input type="checkbox" value="Nhớ mật khẩu"> Nhớ mật khẩu
+            </div>
+            <input type="submit" value="Đăng nhập" class="form-submit">
+            <div class="register-link">
+                <a href="signup.html">Đăng kí</a>
+            </div>
+        </form>
+
+</html>

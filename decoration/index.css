@@ -1,0 +1,492 @@
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.header{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #002C3E;
+    z-index: 100;
+    padding: 0 300px;
+    top:0px;
+    left:0px;
+    right:0px;
+    
+}
+.nav{
+    max-width: 1100px;
+    width:100%
+}
+.nav_item{
+    display: flex;
+    align-items: center;
+    left: auto;
+    justify-content:space-between;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.nav_item{
+    column-gap: 25px;
+    margin: 10px;
+}
+.nav_logo:hover{
+    color: aqua;
+}
+.nav_link:hover{
+    color: aqua;
+}
+.nav_link{
+    color: #f5f5f5
+}
+.nav_logo{
+    color: #f5f5f5
+}
+.button{
+    color: #002C3E;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 4px 4px;
+
+}
+.button:hover{
+    color: aqua;
+}
+body{
+    background-color: #F7F8F3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 600px;
+    background: #002C3E;
+    border-radius: 30px;
+    flex-grow: 1;
+    padding: 30px 30px 50px
+}
+.form-heading{
+    font-size: 20px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 25px;
+    margin-bottom: 2px;
+    display: flex;
+}
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+    font-size: 15px;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+ 
+.form-submit{
+    font-family:Arial, Helvetica, sans-serif;
+    background: transparent;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 20px;
+}
+.form-submit:hover{
+    border: 1px solid #54a0ff;
+}
+.register-link{
+    text-align: center;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    margin-top: 15px ;
+    height: 100%;
+}
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.register-link:hover{
+    border: 1px solid #54a0ff;
+}
+.form-checkbox{
+    font-size: small;
+    color: #f5f5f5;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+    position: fixed;
+    height: 50px;
+    width: 100;
+    background-color: #002C3E;
+    z-index: 100;
+    padding: 0 300px;
+    top:0px;
+    left:0px;
+    right:0px;
+    
+}
+.nav{
+    max-width: 1100px;
+    width:100%
+}
+.nav_item{
+    display: flex;
+    align-items: center;
+    left: auto;
+    justify-content:space-between;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%
+    
+}
+.nav_item{
+    column-gap: 25px;
+    margin: 10px;
+}
+.nav_logo:hover{
+    color: aqua;
+}
+.nav_link:hover{
+    color: aqua;
+}
+.nav_link{
+    color: #f5f5f5
+}
+.nav_logo{
+    color: #f5f5f5
+}
+.button{
+    color: #002C3E;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+.button:hover{
+    color: aqua;
+}
+
+
+
+.Tieudephu{
+    margin-bottom: 8px;
+}
+
+.Tieude{
+    background-color: #f5f5f5;
+    padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.Thongtin{
+    display: flex;
+}
+.Thongtin1,
+.Thongtin3
+{
+    max-width: 100%;
+    margin:0px;
+    padding:0px;
+    background-color: #002C3E;
+    display:flex;
+    width:100%;
+}
+.Tieudephu1,
+.Tieudephu2,
+.Tieudephu3,
+.Tieudephu4,
+.Tieudephu7,
+.Tieudephu8 {
+    width: 150px; /* Set a fixed width for all elements */
+    align-content: center;
+    text-align: left;
+    margin-right: 70px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f5f5; /* Set default text color */
+}
+
+.Tieudephu2,
+.Tieudephu7 {
+    color: #002C3E; /* Adjust text color for specific elements */
+}
+
+
+.Info1,
+.Info3,
+.Info4,
+.Info8
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Info2,
+.Info7
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #002C3E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Thongtin2{
+    max-width: 100%;
+    margin:0px;
+    padding:0px;
+    background-color: #f5f5f5;
+    display:flex;
+    width:100%;
+}
+
+
+.Anh1,
+.Anh2,
+.Anh3
+{
+    margin-top: 20px;
+    max-width: 150px ; 
+    height: auto;
+}
+.Anh4{
+    margin-top: 20px;
+    max-width: 150px ; 
+    border-radius: 50%;
+    height: auto;
+}
+
+.Anh5,
+.Anh6 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden; /* Ensure image stays within circular border */
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-right: 70px;
+    border: 2px solid #fff;
+}
+
+.Anh5 img,
+.Anh6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Center and crop the image */
+}
+
+.Anh7,
+.Anh8
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:20px;
+    max-width: 130px;
+    height: auto;
+}
+.profile-card{
+    background-color: #002C3E;
+    width: 350px;
+    height: 270px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+    margin-left: 350px;
+}
+.Info5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f5f5;
+    margin-left: 94px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+    font-size: 23px;
+}
+.profile-card2{
+    background-color: #002C3E;
+    width: 350px;
+    height: 270px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.Info6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f5f5;
+    margin-left: 50px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+    font-size: 23px;
+}
+.nhomthanhvien{
+    display: flex;
+    flex-direction: row;
+}
+.Thongtin4{
+    max-width: 100%;
+    margin:0px;
+    padding:0px;
+    background-color: #002C3E;
+    display:flex;
+    width:100%;
+}
+.Thongtin7{
+    max-width: 100%;
+    margin:0px;
+    padding:0px;
+    background-color: #f5f5f5;
+    display:flex;
+    width:100%;
+}
+
+.Thongtin8{
+    max-width: 100%;
+    margin:0px;
+    padding:0px;
+    background-color: #002C3E;
+    display:flex;
+    width:100%;
+}
+
+
+.Dethiso1{
+    padding:50px;
+    max-width: 100%;
+    margin:0px;
+    padding:0px;
+    background-color: #002C3E;
+    display:flex;
+    width:100%;
+}
+
+
+/* ----------------- */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    width: 100%;
+    height: 80px;
+    background-color: #002C3E;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.bar:nth-child(even) {
+    background-color: #917e7d;
+}
+
+.title {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%; /* Set the width to match the width of the bar */
+}
+
+.submenu-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.box-title {
+    margin-top: 0;
+}
+
+.box-description {
+    margin-bottom: 5px;
+}
+
+.subsubmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subsubmenu-item {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
