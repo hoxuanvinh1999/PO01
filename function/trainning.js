@@ -95,3 +95,14 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the "Subsubmenu 1" element
+  const subsubmenu1 = document.getElementById('subsubmenu1');
+
+  // Add event listener to redirect to exam.html when clicked
+  subsubmenu1.addEventListener('click', function() {
+      window.location.href = 'exam.html';
+  });
+});

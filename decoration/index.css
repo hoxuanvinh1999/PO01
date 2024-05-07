@@ -490,3 +490,122 @@ a{
     padding: 5px;
     border: 1px solid #ccc;
 }
+
+
+/* -------------------------------------- */
+
+.exam-info-container {
+    position: absolute;
+    top: 60px; /* Adjust top position as needed */
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.exam-info-item {
+    margin-bottom: 10px; /* Add margin between items */
+}
+
+.exam-info-clock {
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px; /* Adjust button padding */
+    border-radius: 5px; /* Add border radius for button */
+    background-color: #002C3E; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+.main-container {
+    position: absolute;
+    top: 250px; /* Adjust top position as needed */
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 250px); /* Adjust height based on header height */
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Stretch child elements to fill height */
+}
+
+.exam-content {
+    width: 80%;
+    background-color: white;
+    height: 100%; /* Set height to 100% to fill parent container */
+    overflow-y: auto; /* Enable vertical scrolling if necessary */
+    padding: 20px; /* Add padding to create space between images */
+    display: flex; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Allow images to wrap to new lines */
+    gap: 20px; /* Set gap between images */
+}
+
+.exam-content img {
+    width: 90%; /* Set image width to 90% of parent container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.answer-panel {
+    width: 20%;
+    background-color: white;
+    height: 100%; /* Set height to 100% to fill parent container */
+}
+
+.question {
+    margin-bottom: 20px; /* Add space between questions */
+}
+
+.question img {
+    width: 100%; /* Make image fill the width of its container */
+}
+
+.answer-buttons {
+    display: flex;
+    justify-content: space-between; /* Evenly space the buttons */
+}
+
+.answer-buttons button {
+    flex-grow: 1; /* Make buttons grow to fill available space */
+    margin: 0 5px; /* Add space between buttons */
+}
+
+.answer-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answer-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.answer-label span {
+    margin-right: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle.blue {
+    background-color: blue;
+    color: white;
+}
